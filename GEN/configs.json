@@ -6,5 +6,7 @@
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 86400,
   "howManyAccountsRunInOneTime": 10,
-  "doTasks": true
+
+  "doTasks": true,
+  "withdrawToWallet": "0x16B0108a498cDC31aceA417E2A2fb8bf2c5Dde91"
 }
