@@ -8,5 +8,6 @@
   "howManyAccountsRunInOneTime": 10,
 
   "doTasks": true,
+  "doWithdraw": true,
   "withdrawToWallet": "0x16B0108a498cDC31aceA417E2A2fb8bf2c5Dde91"
 }
