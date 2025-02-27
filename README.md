@@ -71,24 +71,18 @@ This file controls the bot’s behavior. Below is an example configuration:
   "rotateProxy": false,
   "skipInvalidProxy": false,
   "proxyRotationInterval": 2,
-  "delayEachAccount": [5, 8],
-  "timeToRestartAllAccounts": 300,
-  "howManyAccountsRunInOneTime": 100,
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 86400,
+  "howManyAccountsRunInOneTime": 10,
+
   "doTasks": true,
-  "playGames": true,
-  "referralCode": ""
+  "swapGENtoUSDT": true,
+  "amoutOfSwapGENtoUSDT": 700,
+  "doWithdraw": true,
+  "withdrawToWallet": "0x16B0108a498cDC31aceA417E2A2fb8bf2c5Dde91"
 }
 ```
 
-- **Fields Explained:**
-  - `timeZone`: Time zone setting (e.g., "en-US").
-  - `rotateProxy`: Enable or disable proxy rotation.
-  - `skipInvalidProxy`: Skip invalid proxies if `true`.
-  - `proxyRotationInterval`: Time interval (in minutes) for rotating proxies.
-  - `delayEachAccount`: Random delay range (in seconds) between accounts.
-  - `timeToRestartAllAccounts`: Time (in seconds) to restart all accounts.
-  - `howManyAccountsRunInOneTime`: Number of accounts to run simultaneously.
-  - `doTasks`: Enable task completion.
 
 ### 2. `datas.txt` - 🗂️ User Data
 
