@@ -8,6 +8,8 @@
   "howManyAccountsRunInOneTime": 10,
 
   "doTasks": true,
+  "swapGENtoUSDT": true,
+  "amoutOfSwapGENtoUSDT": 700,
   "doWithdraw": true,
   "withdrawToWallet": "0x16B0108a498cDC31aceA417E2A2fb8bf2c5Dde91"
 }
