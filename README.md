@@ -79,6 +79,7 @@ This file controls the bot’s behavior. Below is an example configuration:
   "swapGENtoUSDT": true,
   "amoutOfSwapGENtoUSDT": 700,
   "doWithdraw": true,
+  "UsdtToWithdraw": 1,
   "withdrawToWallet": "0x16B0108a498cDC31aceA417E2A2fb8bf2c5Dde91"
 }
 ```
